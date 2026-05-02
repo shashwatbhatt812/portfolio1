@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+       <header class="header">
+          <a href="#home" class="logo">
+             Shashwat <span>Bhatt</span>
+          </a>
+
+          <i class="bx bx-menu" id="menu-icon">
+          </i>
+
+          <nav class="nevbar">   
+             <a href="#home">Home</a>
+             <a href="#about">About</a>
+             <a href="#projects">Projects</a>
+             <a href="#contact">Contact</a>
+          </nav>
+          <button href="#contact" class="gradient-btn">Contact Me</button>
+
+       </header>
+
+
+       <section class="home" id="home">
+          <div class="home-content">
+             <h1>Hi,It's <span>Shashwat</span></h1>
+             <h3>I'm an <span>EC Engineer</span></h3>
+             <p>   I’m a passionate Electronics and Communication engineering student focused on building practical, real-world solutions through technology. I enjoy turning ideas into impactful projects while constantly learning and improving my skills.</p>
+
+
+             <div class="social-icons">
+                 <a href="#">
+                    <i class="bx bxl-github"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                 </a>
+             </div>
+
+             <div class="btn-group">
+                <a href="#" class="btn">Hier</a>
+                <a href="#contact" class="btn">Contact</a>
+             </div>
+          </div>
+
+          <div class="home-img">
+            <img src="Profilepic.jpeg" alt="">
+
+          </div>
+
+       </section>
+
+
+       <section class="about" id="about">
+
+
+         <div class="about-img">
+            <img src="Profilepic.jpeg" alt="">
+         </div>
+         <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Built on a strong academic foundation of 94% in SSC and 93.27% in HSC, I am an Electronics and Communication Engineering student driven by curiosity and innovation. I enjoy exploring technology, solving real-world problems, and continuously upgrading my skills to turn ideas into meaningful creations. With a mindset focused on growth and impact, I strive to blend knowledge with creativity in everything I build</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+       </section>
+
+
+
+       <section class="projects" id="projects">
+
+         <h2 class="heading">Projects</h2>
+         <div class="projects-box">
+            <div class="project-card">
+               <img src="Project1(Gpstracker).jpeg" alt="">
+
+               <h3>Gps Tracker</h3>
+               <p>Through this project, I learned how to connect and interface a GPS module with an ESP32 using proper wiring and UART communication. I understood how real-time location data is received from satellites using a GPS antenna. I also gained hands-on experience with breadboard prototyping and circuit setup. This project improved my understanding of serial data transfer and embedded systems. Overall, it helped me build confidence in working with hardware and real-world IoT applications.</p>
+               <div class="btn">Review Project</div>
+            </div>
+             <div class="project-card">
+               <img src="Project2(obstracleditector).jpeg" alt="">
+
+               <h3>Obstacle Ditector</h3>
+               <p>I learned how to build an obstacle detection system using an Arduino and ultrasonic sensor. This project helped me understand how distance is measured using sound waves and how real-time data is processed. I also gained hands-on experience with components like LEDs, LCD display, and IR remote integration. It improved my skills in circuit connections, coding, and debugging. Overall, I understood how sensors interact with microcontrollers to create smart systems.</p>
+               <div class="btn">Review Project</div>
+            </div>
+             <div class="project-card">
+               <img src="Project3(audioamp).jpeg" alt="">
+
+               <h3>Audio Amplifier</h3>
+               <p>This project demonstrates a simple audio amplifier circuit using the LM386 IC to amplify low-power audio signals. The input is given through an AUX cable, and a potentiometer is used to control the volume of the audio signal. The LM386 IC amplifies the signal, which is then passed through capacitors to filter noise and stabilize the output. Finally, the amplified signal is sent to a speaker, producing louder sound. This project helped in understanding signal amplification, IC working, and basic analog circuit design.</p>
+               <div class="btn">Review Project</div>
+            </div>
+             <div class="project-card">
+               <img src="Project4(contectlessdoorbell).jpeg" alt="">
+
+               <h3>Contactless Doorbell</h3>
+               <p>This project is a contactless doorbell system that uses an IR transmitter and receiver to detect hand movement without physical touch. When an object interrupts the IR beam, the receiver sends a signal to the circuit. An LM358 op-amp acts as a comparator to process this signal. Once triggered, it activates a buzzer to produce sound. A potentiometer is used to adjust sensitivity, and an LED indicates detection. This system improves hygiene and reduces physical contact.</p>
+               <div class="btn">Review Project</div>
+            </div>
+             <div class="project-card">
+               <img src="Project5(Batterylevelindicator).jpeg" alt="">
+
+               <h3>Battery level lndicator</h3>
+               <p>By building this Battery Level Indicator, I have learned how to use an LM358 operational amplifier as a comparator to detect specific voltage thresholds. I've also gained practical experience with voltage dividers and zener diodes to create a stable reference voltage, allowing me to visually monitor energy levels through an LED-based interface.</p>
+               <div class="btn">Review Project</div>
+            </div>
+             <div class="project-card">
+               <img src="Project6(Rainsensor).jpeg" alt="">
+
+               <h3>Rain Sensor</h3>
+               <p>Through this project, I built a Rain Sensor circuit by configuring a 555 Timer IC as an astable multivibrator to drive a buzzer. I learned how to utilize a BC547 NPN transistor as a switch, using water to bridge the sensor probes and trigger the timer. Additionally, I gained hands-on experience applying RC time constants (using R_1, R_2, and C_1) to precisely control the frequency of the audible output.</p>
+               <div class="btn">Review Project</div>
+            </div>
+         </div>
+       </section>
+
+
+       <section class="contact" id="contact">
+         <h2 class="heading">Contact <span>Me</span></h2>
+         <form action="#">
+            <div class="input-group">
+               <div class="input-box">
+                  <input type="text" placeholder="Full Name">
+                  <input type="email" placeholder="Email">
+               </div>
+               <div class="input-box">
+                  <input type="text" placeholder="Subject">
+               </div>
+            </div>
+            <div class="input-group-2">
+               <textarea name=""id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+               <input type="submit" value="Send Message" class="btn">
+            </div>
+         </form>
+       </section>
+
+      
+       <footer class="footer">
+         <div class="social-icons">
+                 <a href="#">
+                    <i class="bx bxl-github"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                 </a>
+
+                 <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                 </a>
+             </div>
+
+             <ul class="list">
+                 <li>
+                   <a href="#">FAQ</a>
+                </li>
+                <li>
+                   <a href="#projects">Projects</a>
+                </li>
+                <li>
+                   <a href="#about">About Me</a>
+                </li>
+                <li>
+                   <a href="#contact">Contact</a>
+                </li>
+             </ul>
+
+         <p class="copyright">
+          © Shashwat Bhatt | All Rights Reserved
+         </p>
+       </footer>
+    <script src="socials.js"></script>
+  </body>
+</html>
